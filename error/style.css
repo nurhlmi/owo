@@ -1,0 +1,26 @@
+body {
+	color: white;
+	background-color: #4D2A86;
+}
+
+img {
+	width: 100%;
+}
+
+.article {
+	margin: 0 auto;
+	padding-top: 150px;
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+	font-family: futura pt;
+	font-size: 15pt;
+}
+
+.title {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: futura pt;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#page-login {
+	background-color: #4D2A86;
+}
+
+a{
+	color: #06B3BA;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	color: white;
+	padding: 15px;
+	background-color: #4D2A86;
+}
+
+input[type=text],input[type=email],input[type=tel] {
+	border: none;
+	width: 100%;
+	outline: none;
+	padding-bottom: 5px;
+	background-color: transparent;
+}
+
+input.input-login {
+	border-bottom: 1px solid white;
+	color: white;
+}
+input.input-login::placeholder {
+	color: white;
+}
+
+input.input-regis {
+	color: black;
+	margin-top: 30px;
+	border-bottom: 1px solid silver;
+}
+
+input.input-verify {
+	width: 100%;
+	color: #4D2A86;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 2px solid silver;
+}
+
+input[type=checkbox] {
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+button.signin {
+	width: 100%;
+	padding: 13px;
+	color: white;
+	border-radius: 50px;
+	background-color: transparent;
+	border: 1px solid white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
+	outline: none;
+	transition: fade;
+}
+button.signin:active {
+	color: #4D2A86;
+	background-color: white;
+}
+button.signup {
+	width: 100%;
+	padding: 13px;
+	color: white;
+	border-radius: 50px;
+	background-color: #06B3BA;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	outline: none;
+	margin-top: 50px;
+}
+
+button.topup {
+	width: 100%;
+	border: none;
+	background: #06B3BA;
+	padding: 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.line {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.formlogin {
+	top: 200px;
+	position: relative;
+	font-family: century gothic;
+	padding: 0 20px 0 20px;
+}
+.formregister {
+	color: black;
+	margin-top: 30px;
+	font-size: 12px;
+	font-family: century gothic;
+	padding: 0 20px 0 20px;
+}
+
+.title {
+	top: 100px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	font-family: futura pt;
+}
+
+.agree {
+	font-size: 11px;
+	position: relative;
+	bottom: 3px;
+	color: #7f8c8d;
+}
+
+.welcome {
+	color: white;
+	margin-top: 50px;
+}
